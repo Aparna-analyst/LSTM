@@ -1,10 +1,10 @@
-# ✈️ AirPassengers Forecasting with LSTM
+#  AirPassengers Forecasting with LSTM
 
 This project builds a **time series forecasting model** using an **LSTM (Long Short-Term Memory)** neural network in **PyTorch** to predict the number of airline passengers based on historical data.
 
 ---
 
-## 📚 Project Overview
+## Project Overview
 
 - **Dataset:** [AirPassengers.csv](https://datamarket.com/data/set/22u3/airline-passenger-monthly-total-international-us-carriers-jan-1949-dec-1960) (Monthly total of international airline passengers, 1949–1960)
 - **Goal:** Predict future passenger numbers based on past patterns.
@@ -13,7 +13,7 @@ This project builds a **time series forecasting model** using an **LSTM (Long Sh
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. **Clone the repository**
    ```bash
@@ -36,7 +36,7 @@ This project builds a **time series forecasting model** using an **LSTM (Long Sh
 
 ---
 
-## 🛠️ Project Structure
+##  Project Structure
 
 - `AirPassengers.csv` : Historical dataset.
 - `lstm_airpassengers.py` : Main script to train, predict, and visualize.
@@ -44,7 +44,7 @@ This project builds a **time series forecasting model** using an **LSTM (Long Sh
 
 ---
 
-## ✨ Model Highlights
+## Model Highlights
 
 - **Preprocessing:** Data normalization using `MinMaxScaler`.
 - **Sequence Building:** 12 months input → 1 month prediction.
@@ -54,7 +54,7 @@ This project builds a **time series forecasting model** using an **LSTM (Long Sh
 
 ---
 
-## 🎯 Future Work
+## Future Work
 
 - Predict multiple months ahead.
 - Hyperparameter tuning for better accuracy.
